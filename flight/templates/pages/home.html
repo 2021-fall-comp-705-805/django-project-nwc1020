@@ -1,5 +1,19 @@
 {% extends "base.html" %}
 
 {% block content %}
-     <p>Welcome to the flight checker! </p>
+     <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Welcome to Flight Price Checker!</h1>
+          <p class="lead text-muted">This is Nick Cardins Comp705 project front page, If you're already logged in, please choose a destination. Otherwise choose both an origin point as well as a destination</p>
+          <p>
+            <select class="form-control form-control-lg">
+                <option>Point of Origin</option>
+            </select>
+            <p></p>
+            <select class="form-control form-control-lg">
+                <option>Destination</option>
+            </select>
+          </p>
+        </div>
+      </section>
 {% endblock content %}
