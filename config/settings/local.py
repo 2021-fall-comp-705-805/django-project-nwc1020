@@ -52,3 +52,6 @@ INSTALLED_APPS += ["django_extensions"]  # noqa F405
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+AMADEUS_KEY = 'uHgLy1XLK3uVyDWAcrseQAhkxQc875TV'
+AMADUES_SECRET = 'b94HNienK37JmmvQ'
