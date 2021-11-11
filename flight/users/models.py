@@ -17,7 +17,7 @@ class User(AbstractUser):
     ]
     defaultAirport = CharField(max_length=3, choices=Airport, default='BOS')
     first_name = None  # type: ignore
-    last_name = None  # type: ignore
+    last_name = None  # type: ignores
 
     def get_absolute_url(self):
         """Get url for user's detail view.
