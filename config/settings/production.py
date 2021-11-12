@@ -59,7 +59,7 @@ DROPBOX_ROOT_PATH = env('DJANGO_DROPBOX_ROOT_PATH', default = '/')
 DROPBOX_TIMEOUT = env('DJANGO_DROPBOX_TIMEOUT',default = 100)
 DROPBOX_WRITE_MODE = env('DJANGO_DROPBOX_WRITE_MODE',default='add')
 # STATIC
-# ------------------------
+# -------------------------
 #STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
 #COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 #STATIC_URL = f"https://{aws_s3_domain}/static/"
