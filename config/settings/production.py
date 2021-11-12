@@ -94,6 +94,14 @@ EMAIL_SUBJECT_PREFIX = env(
     default="[Flight]",
 )
 
+#Email part 2?
+
+EMAIL_HOST = env('MAILGUN_SMTP_SERVER', '')
+EMAIL_PORT = env('MAILGUN_SMTP_PORT', '')
+EMAIL_HOST_USER = env('MAILGUN_SMTP_LOGIN', '')
+EMAIL_HOST_PASSWORD = env('MAILGUN_SMTP_PASSWORD', '')
+
+
 # ADMIN
 # ------------------------------------------------------------------------------
 # Django Admin URL regex.
@@ -109,7 +117,7 @@ INSTALLED_APPS += ["anymail"]  # noqa F405
 EMAIL_BACKEND = "anymail.backends.mailgun.EmailBackend"
 ANYMAIL = {
     "MAILGUN_API_KEY": env("MAILGUN_API_KEY"),
-    #"MAILGUN_SENDER_DOMAIN": env("MAILGUN_DOMAIN"),
+    "MAILGUN_SENDER_DOMAIN": env("MAILGUN_DOMAIN"),
     "MAILGUN_API_URL": env("MAILGUN_API_URL", default="https://api.mailgun.net/v3"),
 }
 
