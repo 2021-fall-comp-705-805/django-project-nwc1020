@@ -4,13 +4,20 @@ from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
 
+
+
 class User(AbstractUser):
     """Default user for Flight."""
-
-    #: First and last name do not cover name patterns around the globe
-    name = CharField(_("Name of User"), blank=True, max_length=255)
+    Airport = [
+    ('ATL', 'Hartsfield-Jackson International Airport'),
+    ('LAX', 'Los Angeles International Airport'),
+    ('JFK', 'John F. Kennedy International Airport'),
+    ('BOS', 'Logan International Airport'),
+    ('MCO', 'Orlando International Airport'),
+    ]
+    defaultAirport = CharField(max_length=3, choices=Airport, default='BOS')
     first_name = None  # type: ignore
-    last_name = None  # type: ignore
+    last_name = None  # type: ignores
 
     def get_absolute_url(self):
         """Get url for user's detail view.
