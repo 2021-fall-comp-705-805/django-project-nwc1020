@@ -12,7 +12,7 @@
 
 - [x] make models for user default airports
 
-- [ ] figure out how to display user default airport on homepage consistently
+- [x] figure out how to display user default airport on homepage consistently
 
 - [ ] get data back from front end on homepage to get backend to make api call to flight offers
 
@@ -25,3 +25,5 @@
 - [x] get online storage solution put up for heroku deployment
 
 - [x] setup mailgun to be able to actually send out emails - note for this, i was able to get it working but due to me not having a domain to spare for mailgun, i have to use the sandbox which requires me to manually specify who i can send out emails to, so while it works it only works on who i specify
+
+- [x] Have a way for users to set a default airport of their choice (starting with 5-6 major airports)
