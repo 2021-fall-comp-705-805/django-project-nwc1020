@@ -11,3 +11,4 @@ class UsersConfig(AppConfig):
             import flight.users.signals  # noqa F401
         except ImportError:
             pass
+

@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db.models import CharField
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
+#from django.db import models
 
 
 
@@ -27,3 +28,11 @@ class User(AbstractUser):
 
         """
         return reverse("users:detail", kwargs={"username": self.username})
+
+
+# class Amadeus(models.Model):
+#     Origin = models.CharField(max_length=3)
+#     Dest = models.CharField(max_length=3)
+#     Startdate = models.DateField()
+#     Returndate = models.DateField()
+

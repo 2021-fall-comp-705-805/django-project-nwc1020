@@ -173,3 +173,5 @@ LOGGING = {
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+AMADEUS_KEY = env("AMADEUS_KEY")
+AMADEUS_SECRET = env("AMADEUS_SECRET")
