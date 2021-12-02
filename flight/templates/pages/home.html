@@ -8,8 +8,9 @@
             <p class="lead text-muted">This is Nick Cardin's Comp705 project front page, If you're already logged in,
              please choose a destination. Otherwise choose both an origin point as well as a destination</p>
             <p>
-            <form action="#" method="get">
-                <select class="form-control form-control-lg" id ='Origin'>
+            <form action="/result/" method="post" id='myForm'>
+                {% csrf_token %}
+                <select class="form-control form-control-lg" id ='Origin' name='Origin'>
                     <option value='notvalid' hidden>Point of Origin</option>
                     <option value='ATL' id='ATL'>ATL</option>
                     <option value='LAX' id='LAX'>LAX</option>
@@ -26,7 +27,7 @@
                 {% else %}
                 {% endif %}
                 <br>
-                <select class="form-control form-control-lg" id ='Dest'>
+                <select class="form-control form-control-lg" id ='Dest' name='Dest'>
                     <option value='notvalid' hidden>Destination</option>
                     <option value='ATL' id='ATL'>ATL</option>
                     <option value='LAX' id='LAX'>LAX</option>
@@ -36,13 +37,22 @@
                 </select>
                 <br>
                 <label for="startdate">Start date</label>
-                <input type="date" id="startdate">
+                <input type="date" id="startdate" name='startdate'>
                 <label for="returndate">Return date</label>
-                <input type="date" id="returndate">
+                <input type="date" id="returndate" name='returndate'>
+                {% comment %} <script>
+                    function makedict(){
+                        var dict = {
+                            Origin: document.getElementById("Origin").value,
+                            Dest: document.getElementById("Dest").value,
+                            Start: document.getElementById("startdate").value,
+                            Return: document.getElementById("returndate").value
+                            };
+                        return(dict)
+                    }
+                </script> {% endcomment %}
                 <div class="text-center">
-                    <a class="btn btn-primary" href="{% url 'results' %}" role="button">Find Prices?</a>
-                    
-                    
+                    <button type="submit" class="btn btn-primary">find prices?</button>
                 </div>
             </form>
             </p>

@@ -51,22 +51,26 @@ user_redirect_view = UserRedirectView.as_view()
 
 class AmadeusView():
     
-    def AmadeusAPICall(self):
-        #if(request.GET.get('mybtn')):
+    def AmadeusAPICall(dict):
         amadeus = Client(client_id= settings.AMADEUS_KEY,client_secret= settings.AMADEUS_SECRET)
         try:
             response = amadeus.shopping.flight_offers_search.get(
-                originLocationCode='BOS',
-                destinationLocationCode='LAX',
-                departureDate='2022-01-10',
+                originLocationCode=dict['Origin'],
+                destinationLocationCode=dict['Dest'],
+                departureDate=dict['startdate'],
                 adults = 1,
                 currencyCode = "USD"
                 )
             mydata = response.data
-            #data is a json file that contains a lot of information about the flights, i might switch over to flight_offers_price for the purposes of my project to keep it more simple and keep
-            # my json way easier to read but for now ill see if i can work with this extended dataset for the extra information it includes.
-            # print(data)
-            return HttpResponse(mydata)
+            return(mydata)
         except ResponseError as error:
             return HttpResponse('Invalid Options please try again')
-        
+    
+    def AmadeusPresent(request):
+        if request.method == 'POST':
+            myDict = request.POST.copy()
+            myDict.pop('csrfmiddlewaretoken',None)
+            test = AmadeusView.AmadeusAPICall(myDict)
+            return HttpResponse(test)
+
+
