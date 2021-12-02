@@ -2,7 +2,7 @@
 
 - [x] Develop front end a bit and make it look nice
 
-- [ ] implement third party api call(amadeus flight offers)(far as i can tell doesnt have a way to call easily in jquery but DOES has a python way to call it, will look more though)
+- [x] implement third party api call(amadeus flight offers)(far as i can tell doesnt have a way to call easily in jquery but DOES has a python way to call it, will look more though)
 
 - [ ] implment my own restful api
 
@@ -14,11 +14,11 @@
 
 - [x] figure out how to display user default airport on homepage consistently
 
-- [ ] get data back from front end on homepage to get backend to make api call to flight offers
+- [x] get data back from front end on homepage to get backend to make api call to flight offers
 
 - [ ] save the user search data under my own database in order to make my own restful api
 
-- [ ] find a good way to represent user search back to them on the frontend
+- [x] find a good way to represent user search back to them on the frontend
 
 - [ ] (maybe) check to see if theres a way to select all applicable airports from the flight offers api and use that list for maybe both the deafult airports that users can choose from as well as the list that shows up on the home page. would also end up fixing getting the user default to show up consistently
 
