@@ -1,47 +1,49 @@
 {% extends "base.html" %}
 
 {% block content %}
-     <script src=
-"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <section class="jumbotron text-center">
         <div class="container">
             <h1 class="jumbotron-heading">Welcome to Flight Price Checker!</h1>
-            <p class="lead text-muted">This is Nick Cardin's Comp705 project front page, If you're already logged in, please choose a destination. Otherwise choose both an origin point as well as a destination</p>
+            <p class="lead text-muted">This is Nick Cardin's Comp705 project front page, If you're already logged in,
+             please choose a destination. Otherwise choose both an origin point as well as a destination</p>
             <p>
-            <select class="form-control form-control-lg" id ='Origin'>
-                <option value='notvalid' hidden>Point of Origin</option>
-                <option value='ATL' id='ATL'>ATL</option>
-                <option value='LAX' id='LAX'>LAX</option>
-                <option value='JFK' id='JFK'>JFK</option>
-                <option value='BOS' id='BOS'>BOS</option>
-                <option value='MCO' id='MCO'>MCO</option>
+            <form action="/result/" method="post" id='myForm'>
+                {% csrf_token %}
+                <select class="form-control form-control-lg" id ='Origin' name='Origin'>
+                    <option value='notvalid' hidden>Point of Origin</option>
+                    <option value='ATL' id='ATL'>ATL</option>
+                    <option value='LAX' id='LAX'>LAX</option>
+                    <option value='JFK' id='JFK'>JFK</option>
+                    <option value='BOS' id='BOS'>BOS</option>
+                    <option value='MCO' id='MCO'>MCO</option>
 
-            </select>
-            {% if user.is_authenticated %} 
-                <script>
-                    document.getElementById("Origin").options.selectedValue = {{user.defaultAirport}};
-            
-                </script>
-            {% else %}
-            {% endif %}
-            <br>
-            <select class="form-control form-control-lg" id ='Dest'>
-                <option value='notvalid' hidden>Destination</option>
-                <option value='ATL' id='ATL'>ATL</option>
-                <option value='LAX' id='LAX'>LAX</option>
-                <option value='JFK' id='JFK'>JFK</option>
-                <option value='BOS' id='BOS'>BOS</option>
-                <option value='MCO' id='MCO'>MCO</option>
-            </select>
-            <br>
-            <label for="startdate">Start date</label>
-            <input type="date" id="startdate">
-            <label for="returndate">Return date</label>
-            <input type="date" id="returndate">
-            <div class="text-center">
-                <a href="https://google.com" class="btn btn-primary">Find Prices!</a>
-            </div>
+                </select>
+                {% if user.is_authenticated %} 
+                    <script>
+                        document.getElementById("Origin").value = {{user.defaultAirport}}.value;
+                
+                    </script>
+                {% else %}
+                {% endif %}
+                <br>
+                <select class="form-control form-control-lg" id ='Dest' name='Dest'>
+                    <option value='notvalid' hidden>Destination</option>
+                    <option value='ATL' id='ATL'>ATL</option>
+                    <option value='LAX' id='LAX'>LAX</option>
+                    <option value='JFK' id='JFK'>JFK</option>
+                    <option value='BOS' id='BOS'>BOS</option>
+                    <option value='MCO' id='MCO'>MCO</option>
+                </select>
+                <br>
+                <label for="startdate">Start date</label>
+                <input type="date" id="startdate" name='startdate'>
+                <label for="returndate">Return date</label>
+                <input type="date" id="returndate" name='returndate'>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">find prices?</button>
+                </div>
+            </form>
             </p>
         </div>
     </section>

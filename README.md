@@ -40,6 +40,10 @@
 
   - Please paste your Heroku deployed project link below:
     - `serene-island-35886.herokuapp.com`
+    
+    note for the heroku deployment, authentication works however for emails i need to add the email thats going to be made
+    into a user to mailguns site as under the sandbox mode that it gives you if you dont have a domain, you have to specify who its allowed
+    to email out to. i have a user made under my school email but if you wanted more id have to add them to mailgun for it to work
 
 
 ### Evaluation Rubric:
