@@ -18,7 +18,7 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
     #path("result/", TemplateView.as_view(template_name="pages/result.html"), name="results"),
-    path("result/", views.AmadeusView.AmadeusPresent, name="results"),
+    path("result/", views.AmadeusView.AmadeusInfoGrab, name="results"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     # Static file serving when using Gunicorn + Uvicorn for local web socket development
