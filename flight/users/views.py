@@ -9,6 +9,7 @@ from amadeus import Client, ResponseError
 from django.conf import settings
 from django.shortcuts import render
 from django.template import loader
+from datetime import datetime
 import pandas as pd
 
 
@@ -114,6 +115,11 @@ class AmadeusView():
         finaldf['price.total']= '$'+ finaldf['price.total'].astype(str)
         finaldf.rename(columns={'meta-id':'flightOffer#', 'id':'indivFlightId', 'number':'flightNumber', 'meta-numberOfBookableSeats':'numberOfBookableSeats','meta-lastTicketingDate':'lastTicketingDate'},inplace=True)
         finaldf.set_index(['flightOffer#','indivFlightId'],inplace=True)
+        finaldf['arrivalTime']= pd.to_datetime(finaldf['arrivalTime'],format='%H:%M:%S')
+        finaldf['departureTime']= pd.to_datetime(finaldf['departureTime'],format='%H:%M:%S')
+        finaldf['arrivalTime']=finaldf['arrivalTime'].apply(lambda x: x.strftime("%I:%M %p"))
+        finaldf['departureTime']=finaldf['departureTime'].apply(lambda x: x.strftime("%I:%M %p"))
+        #finaldf['departureTime'] = datetime.strptime(finaldf['departureTime'], '%H:%M:%S' ).strftime("%I:%M %p")
         httpfinaldf = finaldf.to_html()
         return (httpfinaldf)
 
