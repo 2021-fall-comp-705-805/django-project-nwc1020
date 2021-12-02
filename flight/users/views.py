@@ -7,9 +7,7 @@ from django.views.generic import DetailView, RedirectView, UpdateView
 from django.http import HttpResponse
 from amadeus import Client, ResponseError
 from django.conf import settings
-from django.shortcuts import render
 from django.template import loader
-from datetime import datetime
 import pandas as pd
 
 
@@ -119,7 +117,6 @@ class AmadeusView():
         finaldf['departureTime']= pd.to_datetime(finaldf['departureTime'],format='%H:%M:%S')
         finaldf['arrivalTime']=finaldf['arrivalTime'].apply(lambda x: x.strftime("%I:%M %p"))
         finaldf['departureTime']=finaldf['departureTime'].apply(lambda x: x.strftime("%I:%M %p"))
-        #finaldf['departureTime'] = datetime.strptime(finaldf['departureTime'], '%H:%M:%S' ).strftime("%I:%M %p")
         httpfinaldf = finaldf.to_html()
         return (httpfinaldf)
 

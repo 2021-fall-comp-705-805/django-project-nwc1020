@@ -27,3 +27,5 @@
 - [x] setup mailgun to be able to actually send out emails - note for this, i was able to get it working but due to me not having a domain to spare for mailgun, i have to use the sandbox which requires me to manually specify who i can send out emails to, so while it works it only works on who i specify
 
 - [x] Have a way for users to set a default airport of their choice (starting with 5-6 major airports)
+
+- [x] Find a way to organize data requested or rather find something to do with the json (ended up going with pandas)
