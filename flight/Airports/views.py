@@ -3,6 +3,12 @@ from amadeus import Client, ResponseError
 from django.conf import settings
 from django.template import loader
 import pandas as pd
+from .models import Airports
+
+
+def Airport_DB_Return():
+    return [(x.IATAcode,x.Airportname) for x in Airports.objects.all()]
+    
 
 class AmadeusView():
     

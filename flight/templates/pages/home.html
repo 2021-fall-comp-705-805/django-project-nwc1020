@@ -13,7 +13,7 @@
                 
                 <select class="form-control form-control-lg" id ='Origin' name='Origin'>
                     <option value='notvalid' hidden>Point of Origin</option>
-                    {% for x, y in Airports.myAirport.choices %}
+                    {% for x, y in airports %}
                         <option value="{{ x }}">{{ y }}</option>
                     {% endfor %}
 
@@ -29,7 +29,7 @@
                 <br>
                 <select class="form-control form-control-lg" id ='Dest' name='Dest'>
                     <option value='notvalid' hidden>Destination</option>
-                    {% for x, y in Airports.Airports %}
+                    {% for x, y in airports %}
                         <option value="{{ x }}">{{ y }}</option>
                     {% endfor %}
                 </select>
