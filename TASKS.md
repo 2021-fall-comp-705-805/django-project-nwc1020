@@ -4,7 +4,7 @@
 
 - [x] implement third party api call(amadeus flight offers)(far as i can tell doesnt have a way to call easily in jquery but DOES has a python way to call it, will look more though)
 
-- [ ] implment my own restful api
+- [x] implment my own restful api
 
 - [x] heroku deployment
 
@@ -16,7 +16,7 @@
 
 - [x] get data back from front end on homepage to get backend to make api call to flight offers
 
-- [ ] save the user search data under my own database in order to make my own restful api
+- [x] save the user search data under my own database in order to make my own restful api
 
 - [x] find a good way to represent user search back to them on the frontend
 
