@@ -78,6 +78,7 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "flight.users.apps.UsersConfig",
+    "flight.Airports.apps.AirportsConfig"
 
     # Your stuff: custom apps go here
 ]

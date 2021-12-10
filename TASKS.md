@@ -20,7 +20,7 @@
 
 - [x] find a good way to represent user search back to them on the frontend
 
-- [ ] (maybe) check to see if theres a way to select all applicable airports from the flight offers api and use that list for maybe both the deafult airports that users can choose from as well as the list that shows up on the home page. would also end up fixing getting the user default to show up consistently
+- [x] (maybe) check to see if theres a way to select all applicable airports from the flight offers api and use that list for maybe both the deafult airports that users can choose from as well as the list that shows up on the home page. would also end up fixing getting the user default to show up consistently
 
 - [x] get online storage solution put up for heroku deployment
 

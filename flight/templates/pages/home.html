@@ -13,7 +13,7 @@
                 
                 <select class="form-control form-control-lg" id ='Origin' name='Origin'>
                     <option value='notvalid' hidden>Point of Origin</option>
-                    {% for x, y in user.Airport %}
+                    {% for x, y in Airports.myAirport.choices %}
                         <option value="{{ x }}">{{ y }}</option>
                     {% endfor %}
 
@@ -21,6 +21,7 @@
                 {% if user.is_authenticated %} 
                     <script>
                         document.getElementById("Origin").value = "{{user.defaultAirport}}";
+                        console.log({{Airport.myAirport}})
                 
                     </script>
                 {% else %}
@@ -28,7 +29,7 @@
                 <br>
                 <select class="form-control form-control-lg" id ='Dest' name='Dest'>
                     <option value='notvalid' hidden>Destination</option>
-                    {% for x, y in user.Airport %}
+                    {% for x, y in Airports.Airports %}
                         <option value="{{ x }}">{{ y }}</option>
                     {% endfor %}
                 </select>

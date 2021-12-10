@@ -28,8 +28,7 @@ class User(AbstractUser):
     first_name = None  # type: ignore
     last_name = None  # type: ignores
 
-# class Airports(models.Model):
-#     IATAcode = models.CharField(max_length=3)
-#     AirportName = models.CharField(max_length=255)
+
+
 
 

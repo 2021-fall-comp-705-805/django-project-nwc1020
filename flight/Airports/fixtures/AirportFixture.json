@@ -1,0 +1,3090 @@
+[
+{
+    "model": "Airports.airports",
+    "pk": 1,
+    "fields": {
+        "IATAcode": "ABR",
+        "Airportname": "Aberdeen Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 2,
+    "fields": {
+        "IATAcode": "ABI",
+        "Airportname": "Abilene Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 3,
+    "fields": {
+        "IATAcode": "SPI",
+        "Airportname": "Abraham Lincoln Capital Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 4,
+    "fields": {
+        "IATAcode": "CAK",
+        "Airportname": "Akron–Canton Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 5,
+    "fields": {
+        "IATAcode": "ALB",
+        "Airportname": "Albany International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 6,
+    "fields": {
+        "IATAcode": "OAJ",
+        "Airportname": "Albert J. Ellis Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 7,
+    "fields": {
+        "IATAcode": "ABQ",
+        "Airportname": "Albuquerque International Sunport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 8,
+    "fields": {
+        "IATAcode": "AEX",
+        "Airportname": "Alexandria International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 9,
+    "fields": {
+        "IATAcode": "APN",
+        "Airportname": "Alpena County Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 10,
+    "fields": {
+        "IATAcode": "ANI",
+        "Airportname": "Aniak Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 11,
+    "fields": {
+        "IATAcode": "GUM",
+        "Airportname": "Antonio B. Won Pat International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 12,
+    "fields": {
+        "IATAcode": "VQS",
+        "Airportname": "Antonio Rivera Rodríguez Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 13,
+    "fields": {
+        "IATAcode": "ATW",
+        "Airportname": "Appleton International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 14,
+    "fields": {
+        "IATAcode": "ACV",
+        "Airportname": "Arcata Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 15,
+    "fields": {
+        "IATAcode": "LBE",
+        "Airportname": "Arnold Palmer Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 16,
+    "fields": {
+        "IATAcode": "AVL",
+        "Airportname": "Asheville Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 17,
+    "fields": {
+        "IATAcode": "ASE",
+        "Airportname": "Aspen/Pitkin County Airport (Sardy Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 18,
+    "fields": {
+        "IATAcode": "ACY",
+        "Airportname": "Atlantic City International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 19,
+    "fields": {
+        "IATAcode": "AGS",
+        "Airportname": "Augusta Regional Airport (Bush Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 20,
+    "fields": {
+        "IATAcode": "AUS",
+        "Airportname": "Austin–Bergstrom International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 21,
+    "fields": {
+        "IATAcode": "BWI",
+        "Airportname": "Baltimore/Washington International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 22,
+    "fields": {
+        "IATAcode": "BGR",
+        "Airportname": "Bangor International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 23,
+    "fields": {
+        "IATAcode": "PAH",
+        "Airportname": "Barkley Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 24,
+    "fields": {
+        "IATAcode": "BTR",
+        "Airportname": "Baton Rouge Metropolitan Airport (Ryan Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 25,
+    "fields": {
+        "IATAcode": "BLI",
+        "Airportname": "Bellingham International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 26,
+    "fields": {
+        "IATAcode": "BJI",
+        "Airportname": "Bemidji Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 27,
+    "fields": {
+        "IATAcode": "CPX",
+        "Airportname": "Benjamín Rivera Noriega Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 28,
+    "fields": {
+        "IATAcode": "BTM",
+        "Airportname": "Bert Mooney Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 29,
+    "fields": {
+        "IATAcode": "BET",
+        "Airportname": "Bethel Airport (also see Bethel Seaplane Base)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 30,
+    "fields": {
+        "IATAcode": "BIL",
+        "Airportname": "Billings Logan International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 31,
+    "fields": {
+        "IATAcode": "BHM",
+        "Airportname": "Birmingham–Shuttlesworth International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 32,
+    "fields": {
+        "IATAcode": "FNT",
+        "Airportname": "Bishop International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 33,
+    "fields": {
+        "IATAcode": "BIS",
+        "Airportname": "Bismarck Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 34,
+    "fields": {
+        "IATAcode": "BID",
+        "Airportname": "Block Island State Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 35,
+    "fields": {
+        "IATAcode": "LEX",
+        "Airportname": "Blue Grass Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 36,
+    "fields": {
+        "IATAcode": "BOI",
+        "Airportname": "Boise Airport (Boise Air Terminal) (Gowen Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 37,
+    "fields": {
+        "IATAcode": "BLD",
+        "Airportname": "Boulder City Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 38,
+    "fields": {
+        "IATAcode": "BZN",
+        "Airportname": "Bozeman Yellowstone International Airport (was Gallatin Field Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 39,
+    "fields": {
+        "IATAcode": "BDL",
+        "Airportname": "Bradley International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 40,
+    "fields": {
+        "IATAcode": "BRD",
+        "Airportname": "Brainerd Lakes Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 41,
+    "fields": {
+        "IATAcode": "BRO",
+        "Airportname": "Brownsville/South Padre Island International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 42,
+    "fields": {
+        "IATAcode": "BQK",
+        "Airportname": "Brunswick Golden Isles Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 43,
+    "fields": {
+        "IATAcode": "CCR",
+        "Airportname": "Buchanan Field Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 44,
+    "fields": {
+        "IATAcode": "BUF",
+        "Airportname": "Buffalo Niagara International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 45,
+    "fields": {
+        "IATAcode": "BTV",
+        "Airportname": "Burlington International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 46,
+    "fields": {
+        "IATAcode": "CNY",
+        "Airportname": "Canyonlands Field"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 47,
+    "fields": {
+        "IATAcode": "HYA",
+        "Airportname": "Cape Cod Gateway Airport (Boardman/Polando Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 48,
+    "fields": {
+        "IATAcode": "LAN",
+        "Airportname": "Capital Region International Airport (was Lansing Capital City)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 49,
+    "fields": {
+        "IATAcode": "CPR",
+        "Airportname": "Casper–Natrona County International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 50,
+    "fields": {
+        "IATAcode": "CDC",
+        "Airportname": "Cedar City Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 51,
+    "fields": {
+        "IATAcode": "BMI",
+        "Airportname": "Central Illinois Regional Airport at Bloomington-Normal"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 52,
+    "fields": {
+        "IATAcode": "GRI",
+        "Airportname": "Central Nebraska Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 53,
+    "fields": {
+        "IATAcode": "CWA",
+        "Airportname": "Central Wisconsin Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 54,
+    "fields": {
+        "IATAcode": "RIW",
+        "Airportname": "Central Wyoming Regional Airport (was Riverton Regional)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 55,
+    "fields": {
+        "IATAcode": "STS",
+        "Airportname": "Charles M. Schulz–Sonoma County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 56,
+    "fields": {
+        "IATAcode": "CHS",
+        "Airportname": "Charleston International Airport / Charleston AFB"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 57,
+    "fields": {
+        "IATAcode": "CLT",
+        "Airportname": "Charlotte Douglas International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 58,
+    "fields": {
+        "IATAcode": "CHO",
+        "Airportname": "Charlottesville–Albemarle Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 59,
+    "fields": {
+        "IATAcode": "CHA",
+        "Airportname": "Chattanooga Metropolitan Airport (Lovell Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 60,
+    "fields": {
+        "IATAcode": "TVC",
+        "Airportname": "Cherry Capital Airport (was Cherry County Airpark)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 61,
+    "fields": {
+        "IATAcode": "MDW",
+        "Airportname": "Chicago Midway International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 62,
+    "fields": {
+        "IATAcode": "ORD",
+        "Airportname": "Chicago O'Hare International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 63,
+    "fields": {
+        "IATAcode": "RFD",
+        "Airportname": "Chicago Rockford International Airport (was Northwest Chicagoland Regional Airport at Rockford)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 64,
+    "fields": {
+        "IATAcode": "CIU",
+        "Airportname": "Chippewa County International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 65,
+    "fields": {
+        "IATAcode": "EAU",
+        "Airportname": "Chippewa Valley Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 66,
+    "fields": {
+        "IATAcode": "CVG",
+        "Airportname": "Cincinnati/Northern Kentucky International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 67,
+    "fields": {
+        "IATAcode": "COS",
+        "Airportname": "City of Colorado Springs Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 68,
+    "fields": {
+        "IATAcode": "CLE",
+        "Airportname": "Cleveland Hopkins International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 69,
+    "fields": {
+        "IATAcode": "LIT",
+        "Airportname": "Clinton National Airport (Adams Field) (was Little Rock National)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 70,
+    "fields": {
+        "IATAcode": "EWN",
+        "Airportname": "Coastal Carolina Regional Airport (was Craven County Regional)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 71,
+    "fields": {
+        "IATAcode": "CAE",
+        "Airportname": "Columbia Metropolitan Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 72,
+    "fields": {
+        "IATAcode": "COU",
+        "Airportname": "Columbia Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 73,
+    "fields": {
+        "IATAcode": "CSG",
+        "Airportname": "Columbus Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 74,
+    "fields": {
+        "IATAcode": "USA",
+        "Airportname": "Concord Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 75,
+    "fields": {
+        "IATAcode": "CRP",
+        "Airportname": "Corpus Christi International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 76,
+    "fields": {
+        "IATAcode": "STT",
+        "Airportname": "Cyril E. King Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 77,
+    "fields": {
+        "IATAcode": "DAL",
+        "Airportname": "Dallas Love Field"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 78,
+    "fields": {
+        "IATAcode": "DFW",
+        "Airportname": "Dallas/Fort Worth International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 79,
+    "fields": {
+        "IATAcode": "MSN",
+        "Airportname": "Dane County Regional Airport (Truax Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 80,
+    "fields": {
+        "IATAcode": "HNL",
+        "Airportname": "Daniel K. Inouye International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 81,
+    "fields": {
+        "IATAcode": "DAB",
+        "Airportname": "Daytona Beach International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 82,
+    "fields": {
+        "IATAcode": "SCC",
+        "Airportname": "Deadhorse Airport (Prudhoe Bay Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 83,
+    "fields": {
+        "IATAcode": "ESC",
+        "Airportname": "Delta County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 84,
+    "fields": {
+        "IATAcode": "DEN",
+        "Airportname": "Denver International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 85,
+    "fields": {
+        "IATAcode": "DSM",
+        "Airportname": "Des Moines International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 86,
+    "fields": {
+        "IATAcode": "VPS",
+        "Airportname": "Destin–Fort Walton Beach Airport / Eglin Air Force Base"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 87,
+    "fields": {
+        "IATAcode": "DTW",
+        "Airportname": "Detroit Metropolitan Wayne County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 88,
+    "fields": {
+        "IATAcode": "DIK",
+        "Airportname": "Dickinson Theodore Roosevelt Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 89,
+    "fields": {
+        "IATAcode": "DLG",
+        "Airportname": "Dillingham Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 90,
+    "fields": {
+        "IATAcode": "DHN",
+        "Airportname": "Dothan Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 91,
+    "fields": {
+        "IATAcode": "DBQ",
+        "Airportname": "Dubuque Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 92,
+    "fields": {
+        "IATAcode": "DLH",
+        "Airportname": "Duluth International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 93,
+    "fields": {
+        "IATAcode": "DRO",
+        "Airportname": "Durango–La Plata County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 94,
+    "fields": {
+        "IATAcode": "EGE",
+        "Airportname": "Eagle County Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 95,
+    "fields": {
+        "IATAcode": "GGG",
+        "Airportname": "East Texas Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 96,
+    "fields": {
+        "IATAcode": "CLL",
+        "Airportname": "Easterwood Airport (Easterwood Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 97,
+    "fields": {
+        "IATAcode": "ELP",
+        "Airportname": "El Paso International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 98,
+    "fields": {
+        "IATAcode": "EKO",
+        "Airportname": "Elko Regional Airport (J.C. Harris Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 99,
+    "fields": {
+        "IATAcode": "KOA",
+        "Airportname": "Ellison Onizuka Kona International Airport at Keahole"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 100,
+    "fields": {
+        "IATAcode": "ELM",
+        "Airportname": "Elmira/Corning Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 101,
+    "fields": {
+        "IATAcode": "OMA",
+        "Airportname": "Eppley Airfield"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 102,
+    "fields": {
+        "IATAcode": "ERI",
+        "Airportname": "Erie International Airport (Tom Ridge Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 103,
+    "fields": {
+        "IATAcode": "EUG",
+        "Airportname": "Eugene Airport (Mahlon Sweet Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 104,
+    "fields": {
+        "IATAcode": "EVV",
+        "Airportname": "Evansville Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 105,
+    "fields": {
+        "IATAcode": "FAI",
+        "Airportname": "Fairbanks International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 106,
+    "fields": {
+        "IATAcode": "INL",
+        "Airportname": "Falls International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 107,
+    "fields": {
+        "IATAcode": "FAY",
+        "Airportname": "Fayetteville Regional Airport (Grannis Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 108,
+    "fields": {
+        "IATAcode": "SIG",
+        "Airportname": "Fernando Luis Ribas Dominicci Airport (Isla Grande Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 109,
+    "fields": {
+        "IATAcode": "FLG",
+        "Airportname": "Flagstaff Pulliam Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 110,
+    "fields": {
+        "IATAcode": "FLO",
+        "Airportname": "Florence Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 111,
+    "fields": {
+        "IATAcode": "IMT",
+        "Airportname": "Ford Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 112,
+    "fields": {
+        "IATAcode": "FLL",
+        "Airportname": "Fort Lauderdale–Hollywood International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 113,
+    "fields": {
+        "IATAcode": "FSM",
+        "Airportname": "Fort Smith Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 114,
+    "fields": {
+        "IATAcode": "FWA",
+        "Airportname": "Fort Wayne International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 115,
+    "fields": {
+        "IATAcode": "FAT",
+        "Airportname": "Fresno Yosemite International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 116,
+    "fields": {
+        "IATAcode": "FRD",
+        "Airportname": "Friday Harbor Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 117,
+    "fields": {
+        "IATAcode": "SUN",
+        "Airportname": "Friedman Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 118,
+    "fields": {
+        "IATAcode": "GNV",
+        "Airportname": "Gainesville Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 119,
+    "fields": {
+        "IATAcode": "GCK",
+        "Airportname": "Garden City Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 120,
+    "fields": {
+        "IATAcode": "BOS",
+        "Airportname": "Gen. Edward Lawrence Logan International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 121,
+    "fields": {
+        "IATAcode": "PIA",
+        "Airportname": "General Downing-Peoria International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 122,
+    "fields": {
+        "IATAcode": "IAH",
+        "Airportname": "George Bush Intercontinental Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 123,
+    "fields": {
+        "IATAcode": "GRR",
+        "Airportname": "Gerald R. Ford International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 124,
+    "fields": {
+        "IATAcode": "GCC",
+        "Airportname": "Gillette–Campbell County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 125,
+    "fields": {
+        "IATAcode": "FCA",
+        "Airportname": "Glacier Park International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 126,
+    "fields": {
+        "IATAcode": "GTR",
+        "Airportname": "Golden Triangle Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 127,
+    "fields": {
+        "IATAcode": "GCN",
+        "Airportname": "Grand Canyon National Park Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 128,
+    "fields": {
+        "IATAcode": "GFK",
+        "Airportname": "Grand Forks International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 129,
+    "fields": {
+        "IATAcode": "GJT",
+        "Airportname": "Grand Junction Regional Airport (Walker Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 130,
+    "fields": {
+        "IATAcode": "GTF",
+        "Airportname": "Great Falls International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 131,
+    "fields": {
+        "IATAcode": "BGM",
+        "Airportname": "Greater Binghamton Airport (Edwin A. Link Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 132,
+    "fields": {
+        "IATAcode": "ROC",
+        "Airportname": "Greater Rochester International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 133,
+    "fields": {
+        "IATAcode": "GRB",
+        "Airportname": "Green Bay–Austin Straubel International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 134,
+    "fields": {
+        "IATAcode": "LWB",
+        "Airportname": "Greenbrier Valley Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 135,
+    "fields": {
+        "IATAcode": "GSP",
+        "Airportname": "Greenville–Spartanburg International Airport (Roger Milliken Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 136,
+    "fields": {
+        "IATAcode": "GPT",
+        "Airportname": "Gulfport–Biloxi International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 137,
+    "fields": {
+        "IATAcode": "GUC",
+        "Airportname": "Gunnison–Crested Butte Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 138,
+    "fields": {
+        "IATAcode": "GST",
+        "Airportname": "Gustavus Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 139,
+    "fields": {
+        "IATAcode": "HGR",
+        "Airportname": "Hagerstown Regional Airport (Richard A. Henson Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 140,
+    "fields": {
+        "IATAcode": "BED",
+        "Airportname": "Hanscom Field / Hanscom Air Force Base"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 141,
+    "fields": {
+        "IATAcode": "MDT",
+        "Airportname": "Harrisburg International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 142,
+    "fields": {
+        "IATAcode": "ATL",
+        "Airportname": "Hartsfield–Jackson Atlanta International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 143,
+    "fields": {
+        "IATAcode": "FAR",
+        "Airportname": "Hector International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 144,
+    "fields": {
+        "IATAcode": "HLN",
+        "Airportname": "Helena Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 145,
+    "fields": {
+        "IATAcode": "STX",
+        "Airportname": "Henry E. Rohlsen Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 146,
+    "fields": {
+        "IATAcode": "ITO",
+        "Airportname": "Hilo International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 147,
+    "fields": {
+        "IATAcode": "HHH",
+        "Airportname": "Hilton Head Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 148,
+    "fields": {
+        "IATAcode": "BUR",
+        "Airportname": "Hollywood Burbank Airport (was Bob Hope Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 149,
+    "fields": {
+        "IATAcode": "HOM",
+        "Airportname": "Homer Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 150,
+    "fields": {
+        "IATAcode": "CMX",
+        "Airportname": "Houghton County Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 151,
+    "fields": {
+        "IATAcode": "HSV",
+        "Airportname": "Huntsville International Airport (Carl T. Jones Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 152,
+    "fields": {
+        "IATAcode": "IDA",
+        "Airportname": "Idaho Falls Regional Airport (Fanning Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 153,
+    "fields": {
+        "IATAcode": "IND",
+        "Airportname": "Indianapolis International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 154,
+    "fields": {
+        "IATAcode": "ITH",
+        "Airportname": "Ithaca Tompkins International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 155,
+    "fields": {
+        "IATAcode": "BPT",
+        "Airportname": "Jack Brooks Regional Airport (was Southeast Texas Regional)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 156,
+    "fields": {
+        "IATAcode": "JAC",
+        "Airportname": "Jackson Hole Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 157,
+    "fields": {
+        "IATAcode": "JAX",
+        "Airportname": "Jacksonville International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 158,
+    "fields": {
+        "IATAcode": "JAN",
+        "Airportname": "Jackson–Medgar Wiley Evers International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 159,
+    "fields": {
+        "IATAcode": "DAY",
+        "Airportname": "James M. Cox Dayton International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 160,
+    "fields": {
+        "IATAcode": "JMS",
+        "Airportname": "Jamestown Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 161,
+    "fields": {
+        "IATAcode": "JFK",
+        "Airportname": "John F. Kennedy International Airport (was New York International Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 162,
+    "fields": {
+        "IATAcode": "CMH",
+        "Airportname": "John Glenn Columbus International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 163,
+    "fields": {
+        "IATAcode": "SNA",
+        "Airportname": "John Wayne Airport (was Orange County Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 164,
+    "fields": {
+        "IATAcode": "JLN",
+        "Airportname": "Joplin Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 165,
+    "fields": {
+        "IATAcode": "NRR",
+        "Airportname": "José Aponte de la Torre Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 166,
+    "fields": {
+        "IATAcode": "JNU",
+        "Airportname": "Juneau International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 167,
+    "fields": {
+        "IATAcode": "OGG",
+        "Airportname": "Kahului Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 168,
+    "fields": {
+        "IATAcode": "AZO",
+        "Airportname": "Kalamazoo/Battle Creek International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 169,
+    "fields": {
+        "IATAcode": "MCI",
+        "Airportname": "Kansas City International Airport (originally Mid-Continent International Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 170,
+    "fields": {
+        "IATAcode": "ENA",
+        "Airportname": "Kenai Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 171,
+    "fields": {
+        "IATAcode": "KTN",
+        "Airportname": "Ketchikan International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 172,
+    "fields": {
+        "IATAcode": "EYW",
+        "Airportname": "Key West International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 173,
+    "fields": {
+        "IATAcode": "GRK",
+        "Airportname": "Killeen–Fort Hood Regional Airport / Robert Gray Army Airfield"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 174,
+    "fields": {
+        "IATAcode": "BFI",
+        "Airportname": "King County International Airport (Boeing Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 175,
+    "fields": {
+        "IATAcode": "AKN",
+        "Airportname": "King Salmon Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 176,
+    "fields": {
+        "IATAcode": "KLW",
+        "Airportname": "Klawock Airport (also see Klawock Seaplane Base)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 177,
+    "fields": {
+        "IATAcode": "RKD",
+        "Airportname": "Knox County Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 178,
+    "fields": {
+        "IATAcode": "ADQ",
+        "Airportname": "Kodiak Airport (Benny Benson State Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 179,
+    "fields": {
+        "IATAcode": "LSE",
+        "Airportname": "La Crosse Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 180,
+    "fields": {
+        "IATAcode": "LGA",
+        "Airportname": "LaGuardia Airport (and Marine Air Terminal)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 181,
+    "fields": {
+        "IATAcode": "LFT",
+        "Airportname": "Lafayette Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 182,
+    "fields": {
+        "IATAcode": "LCH",
+        "Airportname": "Lake Charles Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 183,
+    "fields": {
+        "IATAcode": "MGM",
+        "Airportname": "Montgomery Regional Airport (Dannelly Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 184,
+    "fields": {
+        "IATAcode": "LNY",
+        "Airportname": "Lanai Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 185,
+    "fields": {
+        "IATAcode": "LAR",
+        "Airportname": "Laramie Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 186,
+    "fields": {
+        "IATAcode": "LRD",
+        "Airportname": "Laredo International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 187,
+    "fields": {
+        "IATAcode": "IFP",
+        "Airportname": "Laughlin/Bullhead International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 188,
+    "fields": {
+        "IATAcode": "LAW",
+        "Airportname": "Lawton–Fort Sill Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 189,
+    "fields": {
+        "IATAcode": "HOB",
+        "Airportname": "Lea County Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 190,
+    "fields": {
+        "IATAcode": "LEB",
+        "Airportname": "Lebanon Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 191,
+    "fields": {
+        "IATAcode": "ABE",
+        "Airportname": "Lehigh Valley International Airport (was Allentown–Bethlehem–Easton International Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 192,
+    "fields": {
+        "IATAcode": "LWS",
+        "Airportname": "Lewiston–Nez Perce County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 193,
+    "fields": {
+        "IATAcode": "LIH",
+        "Airportname": "Lihue Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 194,
+    "fields": {
+        "IATAcode": "LNK",
+        "Airportname": "Lincoln Airport (was Lincoln Municipal)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 195,
+    "fields": {
+        "IATAcode": "LGB",
+        "Airportname": "Long Beach Airport (Daugherty Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 196,
+    "fields": {
+        "IATAcode": "ISP",
+        "Airportname": "Long Island MacArthur Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 197,
+    "fields": {
+        "IATAcode": "LAX",
+        "Airportname": "Los Angeles International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 198,
+    "fields": {
+        "IATAcode": "MSY",
+        "Airportname": "Louis Armstrong New Orleans International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 199,
+    "fields": {
+        "IATAcode": "SDF",
+        "Airportname": "Louisville International Airport (Standiford Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 200,
+    "fields": {
+        "IATAcode": "LBB",
+        "Airportname": "Lubbock Preston Smith International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 201,
+    "fields": {
+        "IATAcode": "SJU",
+        "Airportname": "Luis Muñoz Marín International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 202,
+    "fields": {
+        "IATAcode": "LYH",
+        "Airportname": "Lynchburg Regional Airport (Preston Glenn Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 203,
+    "fields": {
+        "IATAcode": "MBS",
+        "Airportname": "MBS International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 204,
+    "fields": {
+        "IATAcode": "TWF",
+        "Airportname": "Magic Valley Regional Airport (Joslin Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 205,
+    "fields": {
+        "IATAcode": "MMH",
+        "Airportname": "Mammoth Yosemite Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 206,
+    "fields": {
+        "IATAcode": "MHT",
+        "Airportname": "Manchester–Boston Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 207,
+    "fields": {
+        "IATAcode": "MHK",
+        "Airportname": "Manhattan Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 208,
+    "fields": {
+        "IATAcode": "MVY",
+        "Airportname": "Martha's Vineyard Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 209,
+    "fields": {
+        "IATAcode": "MFE",
+        "Airportname": "McAllen Miller International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 210,
+    "fields": {
+        "IATAcode": "LAS",
+        "Airportname": "McCarran International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 211,
+    "fields": {
+        "IATAcode": "TYS",
+        "Airportname": "McGhee Tyson Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 212,
+    "fields": {
+        "IATAcode": "BFL",
+        "Airportname": "Meadows Field"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 213,
+    "fields": {
+        "IATAcode": "MLB",
+        "Airportname": "Melbourne Orlando International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 214,
+    "fields": {
+        "IATAcode": "MEM",
+        "Airportname": "Memphis International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 215,
+    "fields": {
+        "IATAcode": "PSE",
+        "Airportname": "Mercedita International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 216,
+    "fields": {
+        "IATAcode": "MEI",
+        "Airportname": "Meridian Regional Airport (Key Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 217,
+    "fields": {
+        "IATAcode": "CDV",
+        "Airportname": "Merle K. (Mudhole) Smith Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 218,
+    "fields": {
+        "IATAcode": "MRI",
+        "Airportname": "Merrill Field"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 219,
+    "fields": {
+        "IATAcode": "MIA",
+        "Airportname": "Miami International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 220,
+    "fields": {
+        "IATAcode": "BLV",
+        "Airportname": "MidAmerica St. Louis Airport / Scott Air Force Base"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 221,
+    "fields": {
+        "IATAcode": "MAF",
+        "Airportname": "Midland International Air and Space Port"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 222,
+    "fields": {
+        "IATAcode": "MKE",
+        "Airportname": "Milwaukee Mitchell International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 223,
+    "fields": {
+        "IATAcode": "MSP",
+        "Airportname": "Minneapolis–St. Paul International Airport (Wold–Chamberlain Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 224,
+    "fields": {
+        "IATAcode": "MOT",
+        "Airportname": "Minot International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 225,
+    "fields": {
+        "IATAcode": "MSO",
+        "Airportname": "Missoula Montana Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 226,
+    "fields": {
+        "IATAcode": "MOB",
+        "Airportname": "Mobile Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 227,
+    "fields": {
+        "IATAcode": "MKK",
+        "Airportname": "Molokai Airport (Hoolehua Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 228,
+    "fields": {
+        "IATAcode": "MLU",
+        "Airportname": "Monroe Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 229,
+    "fields": {
+        "IATAcode": "MRY",
+        "Airportname": "Monterey Regional Airport (was Monterey Peninsula Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 230,
+    "fields": {
+        "IATAcode": "MTJ",
+        "Airportname": "Montrose Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 231,
+    "fields": {
+        "IATAcode": "MKG",
+        "Airportname": "Muskegon County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 232,
+    "fields": {
+        "IATAcode": "MYR",
+        "Airportname": "Myrtle Beach International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 233,
+    "fields": {
+        "IATAcode": "ACK",
+        "Airportname": "Nantucket Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 234,
+    "fields": {
+        "IATAcode": "BNA",
+        "Airportname": "Nashville International Airport (Berry Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 235,
+    "fields": {
+        "IATAcode": "EWR",
+        "Airportname": "Newark Liberty International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 236,
+    "fields": {
+        "IATAcode": "PHF",
+        "Airportname": "Newport News/Williamsburg International Airport (Patrick Henry Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 237,
+    "fields": {
+        "IATAcode": "IAG",
+        "Airportname": "Niagara Falls International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 238,
+    "fields": {
+        "IATAcode": "OME",
+        "Airportname": "Nome Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 239,
+    "fields": {
+        "IATAcode": "ORF",
+        "Airportname": "Norfolk International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 240,
+    "fields": {
+        "IATAcode": "SJC",
+        "Airportname": "Norman Y. Mineta San José International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 241,
+    "fields": {
+        "IATAcode": "CKB",
+        "Airportname": "North Central West Virginia Airport (was Harrison-Marion Regional)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 242,
+    "fields": {
+        "IATAcode": "LBF",
+        "Airportname": "North Platte Regional Airport (Lee Bird Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 243,
+    "fields": {
+        "IATAcode": "XNA",
+        "Airportname": "Northwest Arkansas National Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 244,
+    "fields": {
+        "IATAcode": "ECP",
+        "Airportname": "Northwest Florida Beaches International Airport[nb 2]"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 245,
+    "fields": {
+        "IATAcode": "OAK",
+        "Airportname": "Oakland International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 246,
+    "fields": {
+        "IATAcode": "OGD",
+        "Airportname": "Ogden-Hinckley Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 247,
+    "fields": {
+        "IATAcode": "OGS",
+        "Airportname": "Ogdensburg International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 248,
+    "fields": {
+        "IATAcode": "ONT",
+        "Airportname": "Ontario International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 249,
+    "fields": {
+        "IATAcode": "ESD",
+        "Airportname": "Orcas Island Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 250,
+    "fields": {
+        "IATAcode": "MCO",
+        "Airportname": "Orlando International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 251,
+    "fields": {
+        "IATAcode": "SFB",
+        "Airportname": "Orlando Sanford International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 252,
+    "fields": {
+        "IATAcode": "PGA",
+        "Airportname": "Page Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 253,
+    "fields": {
+        "IATAcode": "PPG",
+        "Airportname": "Pago Pago International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 254,
+    "fields": {
+        "IATAcode": "PBI",
+        "Airportname": "Palm Beach International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 255,
+    "fields": {
+        "IATAcode": "PSP",
+        "Airportname": "Palm Springs International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 256,
+    "fields": {
+        "IATAcode": "EAT",
+        "Airportname": "Pangborn Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 257,
+    "fields": {
+        "IATAcode": "PLN",
+        "Airportname": "Pellston Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 258,
+    "fields": {
+        "IATAcode": "PNS",
+        "Airportname": "Pensacola International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 259,
+    "fields": {
+        "IATAcode": "PSG",
+        "Airportname": "Petersburg James A. Johnson Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 260,
+    "fields": {
+        "IATAcode": "PHL",
+        "Airportname": "Philadelphia International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 261,
+    "fields": {
+        "IATAcode": "PHX",
+        "Airportname": "Phoenix Sky Harbor International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 262,
+    "fields": {
+        "IATAcode": "AZA",
+        "Airportname": "Phoenix–Mesa Gateway Airport (formerly Williams AFB)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 263,
+    "fields": {
+        "IATAcode": "GSO",
+        "Airportname": "Piedmont Triad International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 264,
+    "fields": {
+        "IATAcode": "PIR",
+        "Airportname": "Pierre Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 265,
+    "fields": {
+        "IATAcode": "PIT",
+        "Airportname": "Pittsburgh International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 266,
+    "fields": {
+        "IATAcode": "PGV",
+        "Airportname": "Pitt–Greenville Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 267,
+    "fields": {
+        "IATAcode": "PBG",
+        "Airportname": "Plattsburgh International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 268,
+    "fields": {
+        "IATAcode": "PIH",
+        "Airportname": "Pocatello Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 269,
+    "fields": {
+        "IATAcode": "PDX",
+        "Airportname": "Portland International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 270,
+    "fields": {
+        "IATAcode": "PWM",
+        "Airportname": "Portland International Jetport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 271,
+    "fields": {
+        "IATAcode": "PSM",
+        "Airportname": "Portsmouth International Airport at Pease"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 272,
+    "fields": {
+        "IATAcode": "PRC",
+        "Airportname": "Prescott Municipal Airport (Ernest A. Love Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 273,
+    "fields": {
+        "IATAcode": "PVC",
+        "Airportname": "Provincetown Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 274,
+    "fields": {
+        "IATAcode": "PVU",
+        "Airportname": "Provo Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 275,
+    "fields": {
+        "IATAcode": "PUW",
+        "Airportname": "Pullman–Moscow Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 276,
+    "fields": {
+        "IATAcode": "PGD",
+        "Airportname": "Punta Gorda Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 277,
+    "fields": {
+        "IATAcode": "MLI",
+        "Airportname": "Quad City International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 278,
+    "fields": {
+        "IATAcode": "BQN",
+        "Airportname": "Rafael Hernández International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 279,
+    "fields": {
+        "IATAcode": "RDU",
+        "Airportname": "Raleigh–Durham International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 280,
+    "fields": {
+        "IATAcode": "OTZ",
+        "Airportname": "Ralph Wien Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 281,
+    "fields": {
+        "IATAcode": "HIB",
+        "Airportname": "Range Regional Airport (was Chisholm–Hibbing Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 282,
+    "fields": {
+        "IATAcode": "RAP",
+        "Airportname": "Rapid City Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 283,
+    "fields": {
+        "IATAcode": "RDD",
+        "Airportname": "Redding Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 284,
+    "fields": {
+        "IATAcode": "RDM",
+        "Airportname": "Redmond Municipal Airport (Roberts Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 285,
+    "fields": {
+        "IATAcode": "RNO",
+        "Airportname": "Reno/Tahoe International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 286,
+    "fields": {
+        "IATAcode": "RHI",
+        "Airportname": "Rhinelander–Oneida County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 287,
+    "fields": {
+        "IATAcode": "PVD",
+        "Airportname": "Rhode Island T. F. Green International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 288,
+    "fields": {
+        "IATAcode": "RIC",
+        "Airportname": "Richmond International Airport (Byrd Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 289,
+    "fields": {
+        "IATAcode": "AMA",
+        "Airportname": "Rick Husband Amarillo International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 290,
+    "fields": {
+        "IATAcode": "LCK",
+        "Airportname": "Rickenbacker International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 291,
+    "fields": {
+        "IATAcode": "ROA",
+        "Airportname": "Roanoke–Blacksburg Regional Airport (Woodrum Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 292,
+    "fields": {
+        "IATAcode": "RST",
+        "Airportname": "Rochester International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 293,
+    "fields": {
+        "IATAcode": "MFR",
+        "Airportname": "Rogue Valley International–Medford Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 294,
+    "fields": {
+        "IATAcode": "DCA",
+        "Airportname": "Ronald Reagan Washington National Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 295,
+    "fields": {
+        "IATAcode": "ROW",
+        "Airportname": "Roswell International Air Center"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 296,
+    "fields": {
+        "IATAcode": "ROP",
+        "Airportname": "Rota International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 297,
+    "fields": {
+        "IATAcode": "SMF",
+        "Airportname": "Sacramento International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 298,
+    "fields": {
+        "IATAcode": "SPN",
+        "Airportname": "Saipan International Airport (Francisco C. Ada)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 299,
+    "fields": {
+        "IATAcode": "SLN",
+        "Airportname": "Salina Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 300,
+    "fields": {
+        "IATAcode": "SBY",
+        "Airportname": "Salisbury–Ocean City–Wicomico Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 301,
+    "fields": {
+        "IATAcode": "SLC",
+        "Airportname": "Salt Lake City International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 302,
+    "fields": {
+        "IATAcode": "SJT",
+        "Airportname": "San Angelo Regional Airport (Mathis Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 303,
+    "fields": {
+        "IATAcode": "SAT",
+        "Airportname": "San Antonio International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 304,
+    "fields": {
+        "IATAcode": "SAN",
+        "Airportname": "San Diego International Airport (Lindbergh Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 305,
+    "fields": {
+        "IATAcode": "SFO",
+        "Airportname": "San Francisco International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 306,
+    "fields": {
+        "IATAcode": "SBP",
+        "Airportname": "San Luis Obispo County Regional Airport (McChesney Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 307,
+    "fields": {
+        "IATAcode": "SBA",
+        "Airportname": "Santa Barbara Municipal Airport (Santa Barbara Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 308,
+    "fields": {
+        "IATAcode": "SAF",
+        "Airportname": "Santa Fe Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 309,
+    "fields": {
+        "IATAcode": "SMX",
+        "Airportname": "Santa Maria Public Airport (Capt G. Allan Hancock Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 310,
+    "fields": {
+        "IATAcode": "SRQ",
+        "Airportname": "Sarasota–Bradenton International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 311,
+    "fields": {
+        "IATAcode": "SAV",
+        "Airportname": "Savannah/Hilton Head International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 312,
+    "fields": {
+        "IATAcode": "MQT",
+        "Airportname": "Sawyer International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 313,
+    "fields": {
+        "IATAcode": "SEA",
+        "Airportname": "Seattle–Tacoma International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 314,
+    "fields": {
+        "IATAcode": "SHD",
+        "Airportname": "Shenandoah Valley Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 315,
+    "fields": {
+        "IATAcode": "SHR",
+        "Airportname": "Sheridan County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 316,
+    "fields": {
+        "IATAcode": "SHV",
+        "Airportname": "Shreveport Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 317,
+    "fields": {
+        "IATAcode": "SDY",
+        "Airportname": "Sidney–Richland Municipal Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 318,
+    "fields": {
+        "IATAcode": "FSD",
+        "Airportname": "Sioux Falls Regional Airport (Joe Foss Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 319,
+    "fields": {
+        "IATAcode": "SUX",
+        "Airportname": "Sioux Gateway Airport (Brig. General Bud Day Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 320,
+    "fields": {
+        "IATAcode": "SIT",
+        "Airportname": "Sitka Rocky Gutierrez Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 321,
+    "fields": {
+        "IATAcode": "SBN",
+        "Airportname": "South Bend International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 322,
+    "fields": {
+        "IATAcode": "RSW",
+        "Airportname": "Southwest Florida International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 323,
+    "fields": {
+        "IATAcode": "ABY",
+        "Airportname": "Southwest Georgia Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 324,
+    "fields": {
+        "IATAcode": "OTH",
+        "Airportname": "Southwest Oregon Regional Airport (was North Bend Municipal)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 325,
+    "fields": {
+        "IATAcode": "RKS",
+        "Airportname": "Southwest Wyoming Regional Airport (Rock Springs–Sweetwater County Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 326,
+    "fields": {
+        "IATAcode": "GEG",
+        "Airportname": "Spokane International Airport (Geiger Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 327,
+    "fields": {
+        "IATAcode": "SGF",
+        "Airportname": "Springfield–Branson National Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 328,
+    "fields": {
+        "IATAcode": "STC",
+        "Airportname": "St. Cloud Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 329,
+    "fields": {
+        "IATAcode": "SGU",
+        "Airportname": "St. George Regional Airport (opened 2011)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 330,
+    "fields": {
+        "IATAcode": "STL",
+        "Airportname": "St. Louis Lambert International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 331,
+    "fields": {
+        "IATAcode": "KSM",
+        "Airportname": "St. Mary's Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 332,
+    "fields": {
+        "IATAcode": "PIE",
+        "Airportname": "St. Pete–Clearwater International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 333,
+    "fields": {
+        "IATAcode": "SWF",
+        "Airportname": "Stewart International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 334,
+    "fields": {
+        "IATAcode": "SWO",
+        "Airportname": "Stillwater Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 335,
+    "fields": {
+        "IATAcode": "SCK",
+        "Airportname": "Stockton Metropolitan Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 336,
+    "fields": {
+        "IATAcode": "SYR",
+        "Airportname": "Syracuse Hancock International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 337,
+    "fields": {
+        "IATAcode": "TLH",
+        "Airportname": "Tallahassee International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 338,
+    "fields": {
+        "IATAcode": "TPA",
+        "Airportname": "Tampa International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 339,
+    "fields": {
+        "IATAcode": "ANC",
+        "Airportname": "Ted Stevens Anchorage International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 340,
+    "fields": {
+        "IATAcode": "TXK",
+        "Airportname": "Texarkana Regional Airport (Webb Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 341,
+    "fields": {
+        "IATAcode": "CID",
+        "Airportname": "The Eastern Iowa Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 342,
+    "fields": {
+        "IATAcode": "TIQ",
+        "Airportname": "Tinian International Airport (West Tinian)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 343,
+    "fields": {
+        "IATAcode": "TOL",
+        "Airportname": "Toledo Express Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 344,
+    "fields": {
+        "IATAcode": "TTN",
+        "Airportname": "Trenton Mercer Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 345,
+    "fields": {
+        "IATAcode": "PSC",
+        "Airportname": "Tri-Cities Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 346,
+    "fields": {
+        "IATAcode": "TRI",
+        "Airportname": "Tri-Cities Regional Airport (Tri-Cities Regional TN/VA)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 347,
+    "fields": {
+        "IATAcode": "HTS",
+        "Airportname": "Tri-State Airport (Milton J. Ferguson Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 348,
+    "fields": {
+        "IATAcode": "TUS",
+        "Airportname": "Tucson International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 349,
+    "fields": {
+        "IATAcode": "TUL",
+        "Airportname": "Tulsa International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 350,
+    "fields": {
+        "IATAcode": "TUP",
+        "Airportname": "Tupelo Regional Airport (C.D. Lemons Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 351,
+    "fields": {
+        "IATAcode": "HVN",
+        "Airportname": "Tweed-New Haven Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 352,
+    "fields": {
+        "IATAcode": "TYR",
+        "Airportname": "Tyler Pounds Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 353,
+    "fields": {
+        "IATAcode": "UNK",
+        "Airportname": "Unalakleet Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 354,
+    "fields": {
+        "IATAcode": "DUT",
+        "Airportname": "Unalaska Airport (Tom Madsen/Dutch Harbor Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 355,
+    "fields": {
+        "IATAcode": "SCE",
+        "Airportname": "University Park Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 356,
+    "fields": {
+        "IATAcode": "CMI",
+        "Airportname": "University of Illinois - Willard Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 357,
+    "fields": {
+        "IATAcode": "VDZ",
+        "Airportname": "Valdez Airport (Pioneer Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 358,
+    "fields": {
+        "IATAcode": "VLD",
+        "Airportname": "Valdosta Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 359,
+    "fields": {
+        "IATAcode": "HRL",
+        "Airportname": "Valley International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 360,
+    "fields": {
+        "IATAcode": "VEL",
+        "Airportname": "Vernal Regional Airport (was Vernal-Uintah Co. Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 361,
+    "fields": {
+        "IATAcode": "ACT",
+        "Airportname": "Waco Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 362,
+    "fields": {
+        "IATAcode": "ALW",
+        "Airportname": "Walla Walla Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 363,
+    "fields": {
+        "IATAcode": "IAD",
+        "Airportname": "Washington Dulles International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 364,
+    "fields": {
+        "IATAcode": "ART",
+        "Airportname": "Watertown International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 365,
+    "fields": {
+        "IATAcode": "ATY",
+        "Airportname": "Watertown Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 366,
+    "fields": {
+        "IATAcode": "HPN",
+        "Airportname": "Westchester County Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 367,
+    "fields": {
+        "IATAcode": "WST",
+        "Airportname": "Westerly State Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 368,
+    "fields": {
+        "IATAcode": "BFF",
+        "Airportname": "Western Nebraska Regional Airport (William B. Heilig Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 369,
+    "fields": {
+        "IATAcode": "ICT",
+        "Airportname": "Wichita Dwight D. Eisenhower National Airport (was Wichita Mid-Continent Airport)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 370,
+    "fields": {
+        "IATAcode": "SPS",
+        "Airportname": "Wichita Falls Regional Airport / Sheppard Air Force Base"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 371,
+    "fields": {
+        "IATAcode": "BRW",
+        "Airportname": "Wiley Post–Will Rogers Memorial Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 372,
+    "fields": {
+        "IATAcode": "AVP",
+        "Airportname": "Wilkes-Barre/Scranton International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 373,
+    "fields": {
+        "IATAcode": "OKC",
+        "Airportname": "Will Rogers World Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 374,
+    "fields": {
+        "IATAcode": "HOU",
+        "Airportname": "William P. Hobby Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 375,
+    "fields": {
+        "IATAcode": "IPT",
+        "Airportname": "Williamsport Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 376,
+    "fields": {
+        "IATAcode": "XWA",
+        "Airportname": "Williston Basin International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 377,
+    "fields": {
+        "IATAcode": "ILM",
+        "Airportname": "Wilmington International Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 378,
+    "fields": {
+        "IATAcode": "ORH",
+        "Airportname": "Worcester Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 379,
+    "fields": {
+        "IATAcode": "WRG",
+        "Airportname": "Wrangell Airport (also see Wrangell Seaplane Base)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 380,
+    "fields": {
+        "IATAcode": "YKM",
+        "Airportname": "Yakima Air Terminal (McAllister Field)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 381,
+    "fields": {
+        "IATAcode": "YAK",
+        "Airportname": "Yakutat Airport (also see Yakutat Seaplane Base)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 382,
+    "fields": {
+        "IATAcode": "HDN",
+        "Airportname": "Yampa Valley Airport (Yampa Valley Regional)"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 383,
+    "fields": {
+        "IATAcode": "CRW",
+        "Airportname": "Yeager Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 384,
+    "fields": {
+        "IATAcode": "WYS",
+        "Airportname": "Yellowstone Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 385,
+    "fields": {
+        "IATAcode": "COD",
+        "Airportname": "Yellowstone Regional Airport"
+    }
+},
+{
+    "model": "Airports.airports",
+    "pk": 386,
+    "fields": {
+        "IATAcode": "YUM",
+        "Airportname": "Yuma International Airport / MCAS Yuma"
+    }
+}
+]
