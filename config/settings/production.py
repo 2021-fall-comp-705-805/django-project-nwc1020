@@ -61,7 +61,7 @@ DROPBOX_WRITE_MODE = env('DJANGO_DROPBOX_WRITE_MODE',default='add')
 # -------------------------
 STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
 COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
-STATIC_URL = f"https://{aws_s3_domain}/static/"
+STATIC_URL = "/static/"
 #django_heroku.settings(locals())
 # MEDIA
 # -------------------------------------------------------------------------------
