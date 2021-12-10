@@ -90,7 +90,7 @@ class AmadeusView():
         finaldf['carrierCode']=finaldf['carrierCode'].map(AmadeusView.quickAirlineDict())
 
 
-        engine = create_engine('postgresql:///flight')
+        engine = create_engine(settings.DATABASES["default"])
         finaldf.to_sql(RecentRequest._meta.db_table, if_exists='replace', con = engine,index = True)
         httpfinaldf = finaldf.to_html()
         return (httpfinaldf)
