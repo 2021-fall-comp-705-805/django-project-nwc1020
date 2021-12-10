@@ -21,7 +21,6 @@
                 {% if user.is_authenticated %} 
                     <script>
                         document.getElementById("Origin").value = "{{user.defaultAirport}}";
-                        console.log({{Airport.myAirport}})
                 
                     </script>
                 {% else %}
@@ -39,7 +38,7 @@
                 <label for="returndate">Return date</label>
                 <input type="date" id="returndate" name='returndate'>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-primary">find prices?</button>
+                    <button type="submit" class="btn btn-primary">Find Prices!</button>
                 </div>
             </form>
             </p>

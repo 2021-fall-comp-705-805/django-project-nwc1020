@@ -2,8 +2,9 @@ from django.http import HttpResponse
 from amadeus import Client, ResponseError
 from django.conf import settings
 from django.template import loader
-import pandas as pd
+import pandas as pd,json,lxml.html as lh,requests,numpy as np
 from .models import Airports
+
 
 
 def Airport_DB_Return():
@@ -43,7 +44,6 @@ class AmadeusView():
             myDict = request.POST.copy()
             myDict.pop('csrfmiddlewaretoken',None)
             flightdata = AmadeusView.AmadeusAPICall(myDict)
-            print(type(flightdata))
             if flightdata == 'Invalid Options please try again':
                 return HttpResponse(flightdata)
             mytable = AmadeusView.AmadeusPandas(flightdata)
@@ -76,5 +76,43 @@ class AmadeusView():
         finaldf['departureTime']= pd.to_datetime(finaldf['departureTime'],format='%H:%M:%S')
         finaldf['arrivalTime']=finaldf['arrivalTime'].apply(lambda x: x.strftime("%I:%M %p"))
         finaldf['departureTime']=finaldf['departureTime'].apply(lambda x: x.strftime("%I:%M %p"))
+        finaldf['carrierCode']=finaldf['carrierCode'].map(AmadeusView.quickAirlineDict())
         httpfinaldf = finaldf.to_html()
         return (httpfinaldf)
+    
+    def quickAirlineDict():
+        url='https://en.wikipedia.org/wiki/List_of_airline_codes#'
+        page = requests.get(url)
+        doc = lh.fromstring(page.content)
+        tr_elements = doc.xpath('//tr')
+        col=[]
+        i=0
+        for t in tr_elements[0]:
+            i+=1
+            name=t.text_content()
+            print(name)
+            col.append((name,[]))
+        for j in range(1,len(tr_elements)):
+            T=tr_elements[j]
+            i=0
+            for t in T.iterchildren():
+                data=t.text_content() 
+                if i>0:
+                    try:
+                        data=int(data)
+                    except:
+                        pass
+                col[i][1].append(data)
+                i+=1
+        [col.pop() for (title,C) in col]
+        Dict={title:column for (title,column) in col}
+        df=pd.DataFrame(Dict)
+        df.rename(columns={'IATA\n': 'IATA', 'Airline\n': 'Airline'}, inplace=True)
+        df['IATA']= df['IATA'].str.strip()
+        df['Airline']=df['Airline'].str.replace('\n','')
+        dfnew = df[['IATA','Airline']].copy()
+        dfnew.replace('',np.nan, inplace=True)
+        dfnew.dropna(inplace=True)
+        dfnew.set_index(['IATA'],inplace=True)
+        dfdict=dfnew.to_dict()
+        return dfdict['Airline']
