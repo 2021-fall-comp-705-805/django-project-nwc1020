@@ -8,6 +8,7 @@ from django.views.generic import TemplateView
 from rest_framework.authtoken.views import obtain_auth_token
 from flight.Airports import views
 
+
 urlpatterns = [
     path("", TemplateView.as_view(template_name="pages/home.html", extra_context={'airports' : views.Airport_DB_Return}), name="home"),
     path("about/", TemplateView.as_view(template_name="pages/about.html"), name="about"),
@@ -19,6 +20,7 @@ urlpatterns = [
     # Your stuff: custom urls includes go here
     #path("result/", TemplateView.as_view(template_name="pages/result.html"), name="results"),
     path("result/", views.AmadeusView.AmadeusInfoGrab, name="results"),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     # Static file serving when using Gunicorn + Uvicorn for local web socket development

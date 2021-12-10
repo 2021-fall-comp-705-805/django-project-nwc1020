@@ -2,9 +2,16 @@ from django.http import HttpResponse
 from amadeus import Client, ResponseError
 from django.conf import settings
 from django.template import loader
-import pandas as pd,json,lxml.html as lh,requests,numpy as np
-from .models import Airports
+import pandas as pd,lxml.html as lh,requests,numpy as np
+from .models import Airports, RecentRequest
+from sqlalchemy import create_engine
+from rest_framework import viewsets, permissions
+from .serializers import RRSerializer
 
+class RRViewSet(viewsets.ModelViewSet):
+    queryset = RecentRequest.objects.all()
+    serializer_class = RRSerializer
+    permission_classes = [permissions.IsAuthenticated]
 
 
 def Airport_DB_Return():
@@ -68,15 +75,23 @@ class AmadeusView():
         #switched to selecting the exact columns i wanted from just dropping a couple, since one query i did included a stops column that usually isnt made or wanted in my data so specifically selecting the columns i want is a better idea
         finaldf = droppedsplit[['meta-id','id','carrierCode','number','departure.iataCode','arrival.iataCode','aircraft.code','meta-numberOfBookableSeats','meta-lastTicketingDate',
         'departureDate','departureTime','arrivalDate','arrivalTime','price.base','price.total']].copy()
-        finaldf['price.base']= '$'+ finaldf['price.base'].astype(str)
-        finaldf['price.total']= '$'+ finaldf['price.total'].astype(str)
-        finaldf.rename(columns={'meta-id':'flightOffer#', 'id':'indivFlightId', 'number':'flightNumber', 'meta-numberOfBookableSeats':'numberOfBookableSeats','meta-lastTicketingDate':'lastTicketingDate'},inplace=True)
-        finaldf.set_index(['flightOffer#','indivFlightId'],inplace=True)
+        #finaldf['price.base']= '$'+ finaldf['price.base'].astype(str)
+        #finaldf['price.total']= '$'+ finaldf['price.total'].astype(str)
+        finaldf.rename(columns={'meta-id':'flightOffer', 'id':'indivFlightID', 'number':'flightNum', 
+        'meta-numberOfBookableSeats':'numOfBookableSeats','meta-lastTicketingDate':'lastTicketingDate',
+        'price.base':'basePrice','price.total':'totalPrice','departure.iataCode':'departureAirport',
+        'arrival.iataCode': 'arrivalAirport', 'aircraft.code':'aircraftCode'
+         },inplace=True)
+        finaldf.set_index(['flightOffer','indivFlightID'],inplace=True)
         finaldf['arrivalTime']= pd.to_datetime(finaldf['arrivalTime'],format='%H:%M:%S')
         finaldf['departureTime']= pd.to_datetime(finaldf['departureTime'],format='%H:%M:%S')
         finaldf['arrivalTime']=finaldf['arrivalTime'].apply(lambda x: x.strftime("%I:%M %p"))
         finaldf['departureTime']=finaldf['departureTime'].apply(lambda x: x.strftime("%I:%M %p"))
         finaldf['carrierCode']=finaldf['carrierCode'].map(AmadeusView.quickAirlineDict())
+
+
+        engine = create_engine('postgresql:///flight')
+        finaldf.to_sql(RecentRequest._meta.db_table, if_exists='replace', con = engine,index = True)
         httpfinaldf = finaldf.to_html()
         return (httpfinaldf)
     
@@ -90,7 +105,6 @@ class AmadeusView():
         for t in tr_elements[0]:
             i+=1
             name=t.text_content()
-            print(name)
             col.append((name,[]))
         for j in range(1,len(tr_elements)):
             T=tr_elements[j]
@@ -114,5 +128,4 @@ class AmadeusView():
         dfnew.replace('',np.nan, inplace=True)
         dfnew.dropna(inplace=True)
         dfnew.set_index(['IATA'],inplace=True)
-        dfdict=dfnew.to_dict()
-        return dfdict['Airline']
+        return dfnew.to_dict()['Airline']
