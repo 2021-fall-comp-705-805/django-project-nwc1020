@@ -6,8 +6,8 @@ class Airports(models.Model):
 
 class RecentRequest(models.Model):
     flightOffer = models.IntegerField(default=None)
-    indivFlightID = models.IntegerField(default=None,primary_key=True)
-    carrierCode = models.CharField(max_length=255,default=None)
+    indivFlightID = models.IntegerField(default=None,primary_key= True)
+    carrierCode = models.CharField(max_length=254,default=None)
     flightNum = models.IntegerField(default=None)
     departureAirport = models.CharField(max_length=3,default=None)
     arrivalAirport = models.CharField(max_length=3,default=None)
@@ -20,5 +20,3 @@ class RecentRequest(models.Model):
     arrivalTime = models.TimeField(default=None)
     basePrice = models.FloatField(default=None)
     totalPrice = models.FloatField(default=None)
-    class Meta:
-        indexes: models.Index(fields=['flightOffer','indivFlightID'])

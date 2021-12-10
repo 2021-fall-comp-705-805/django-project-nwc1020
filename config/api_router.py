@@ -1,6 +1,5 @@
 from django.conf import settings
 from rest_framework.routers import DefaultRouter, SimpleRouter
-
 from flight.Airports.views import RRViewSet
 
 if settings.DEBUG:

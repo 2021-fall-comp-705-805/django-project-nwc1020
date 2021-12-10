@@ -11,7 +11,7 @@ from .serializers import RRSerializer
 class RRViewSet(viewsets.ModelViewSet):
     queryset = RecentRequest.objects.all()
     serializer_class = RRSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    #permission_classes = [permissions.IsAuthenticated]
 
 
 def Airport_DB_Return():

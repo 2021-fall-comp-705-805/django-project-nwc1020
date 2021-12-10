@@ -20,7 +20,6 @@ urlpatterns = [
     # Your stuff: custom urls includes go here
     #path("result/", TemplateView.as_view(template_name="pages/result.html"), name="results"),
     path("result/", views.AmadeusView.AmadeusInfoGrab, name="results"),
-    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
     # Static file serving when using Gunicorn + Uvicorn for local web socket development
@@ -32,6 +31,7 @@ urlpatterns += [
     path("api/", include("config.api_router")),
     # DRF auth token
     path("auth-token/", obtain_auth_token),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
 ]
 
 if settings.DEBUG:
