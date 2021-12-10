@@ -24,7 +24,7 @@ class User(AbstractUser):
         lines = f.read()
     test = json.loads(lines)
     Airport = list(test.items())
-    defaultAirport = models.CharField(max_length=3, choices=Airport)
+    defaultAirport = models.CharField(max_length=3, choices=Airport,default='BOS')
     first_name = None  # type: ignore
     last_name = None  # type: ignores
 
