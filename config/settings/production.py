@@ -15,8 +15,6 @@ DATABASES["default"] = env.db("DATABASE_URL")  # noqa F405
 DATABASES["default"]["ATOMIC_REQUESTS"] = True  # noqa F405
 DATABASES["default"]["CONN_MAX_AGE"] = env.int("CONN_MAX_AGE", default=60)  # noqa F405
 DATABASES['default']["URL"] =env("DATABASE_URL").replace('postgres','postgresql')
-print(DATABASES['default']["URL"])
-print
 # CACHES
 # ------------------------------------------------------------------------------
 CACHES = {
@@ -61,9 +59,10 @@ DROPBOX_TIMEOUT = env('DJANGO_DROPBOX_TIMEOUT',default = 100)
 DROPBOX_WRITE_MODE = env('DJANGO_DROPBOX_WRITE_MODE',default='add')
 # STATIC
 # -------------------------
-#STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
-#COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
-#STATIC_URL = f"https://{aws_s3_domain}/static/"
+STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
+COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
+STATIC_URL = f"https://{aws_s3_domain}/static/"
+django_heroku.settings(locals())
 # MEDIA
 # -------------------------------------------------------------------------------
 DEFAULT_FILE_STORAGE = "storages.backends.dropbox.DropBoxStorage"
