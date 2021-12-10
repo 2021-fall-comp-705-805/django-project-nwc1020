@@ -96,7 +96,7 @@ class AmadeusView():
         return (httpfinaldf)
     
     def quickAirlineDict():
-        url='https://en.wikipedia.org/wiki/List_of_airline_codes#'
+        url='http://en.wikipedia.org/wiki/List_of_airline_codes#'
         page = requests.get(url)
         doc = lh.fromstring(page.content)
         tr_elements = doc.xpath('//tr')
