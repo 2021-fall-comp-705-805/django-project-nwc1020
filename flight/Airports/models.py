@@ -20,5 +20,5 @@ class RecentRequest(models.Model):
     arrivalTime = models.TimeField(default=None)
     basePrice = models.FloatField(default=None)
     totalPrice = models.FloatField(default=None)
-    # class Meta:
-    #     indexes: models.Index(fields=['flightOffer','indivFlightID'])
+    class Meta:
+        indexes: models.Index(fields=['flightOffer','indivFlightID'])
