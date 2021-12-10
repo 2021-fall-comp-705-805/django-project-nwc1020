@@ -21,7 +21,6 @@ def Airport_DB_Return():
 class AmadeusView():
     
     def AmadeusAPICall(dict):
-        print(dict)
         amadeus = Client(client_id= settings.AMADEUS_KEY,client_secret= settings.AMADEUS_SECRET)
         try:
             if dict['returndate'] != '':
