@@ -63,7 +63,7 @@ DROPBOX_WRITE_MODE = env('DJANGO_DROPBOX_WRITE_MODE',default='add')
 #COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
 #STATIC_URL = f"https://{aws_s3_domain}/static/"
 # MEDIA
-# ------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 DEFAULT_FILE_STORAGE = "storages.backends.dropbox.DropBoxStorage"
 
 # TEMPLATES
