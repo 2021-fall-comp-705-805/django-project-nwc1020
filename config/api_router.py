@@ -1,14 +1,13 @@
 from django.conf import settings
 from rest_framework.routers import DefaultRouter, SimpleRouter
+from flight.Airports.views import RRViewSet
 
-from flight.users.api.views import UserViewSet
+#if settings.DEBUG:
+router = DefaultRouter()
+#else:
+#    router = SimpleRouter()
 
-if settings.DEBUG:
-    router = DefaultRouter()
-else:
-    router = SimpleRouter()
-
-router.register("users", UserViewSet)
+router.register("RecentRequests", RRViewSet)
 
 
 app_name = "api"

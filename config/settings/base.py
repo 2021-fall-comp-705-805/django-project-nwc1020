@@ -13,7 +13,7 @@ env = environ.Env()
 READ_DOT_ENV_FILE = env.bool("DJANGO_READ_DOT_ENV_FILE", default=False)
 if READ_DOT_ENV_FILE:
     # OS environment variables take precedence over variables from .env
-    env.read_env(str(ROOT_DIR / ".env"))
+    test =env.read_env(str(ROOT_DIR / ".envs/.local/.postgres"))
 
 # GENERAL
 # ------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ LOCALE_PATHS = [str(ROOT_DIR / "locale")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
 DATABASES = {
-    "default": env.db("DATABASE_URL", default="postgres:///flight"),
+    "default": env.db("DATABASE_URL", default="postgresql:///flight"),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
 
@@ -74,10 +74,12 @@ THIRD_PARTY_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     "corsheaders",
+    
 ]
 
 LOCAL_APPS = [
     "flight.users.apps.UsersConfig",
+    "flight.Airports.apps.AirportsConfig",
 
     # Your stuff: custom apps go here
 ]
@@ -137,6 +139,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     #"django.middleware.common.BrokenLinkEmailsMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 # STATIC
@@ -152,12 +155,13 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.FileSystemFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 # MEDIA
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#media-root
 MEDIA_ROOT = str(APPS_DIR / "media")
-# https://docs.djangoproject.com/en/dev/ref/settings/#media-url
+# https://docs.djangoproject.com/en/dev/ref/settings/#media-url.
 MEDIA_URL = "/media/"
 
 # TEMPLATES

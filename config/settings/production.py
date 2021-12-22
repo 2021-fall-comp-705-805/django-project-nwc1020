@@ -1,21 +1,20 @@
 from .base import *  # noqa
 from .base import env
-#import dropbox
 
 
 # GENERAL
-# ------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = env.list("DJANGO_ALLOWED_HOSTS", default=["example.com"])
 
 # DATABASES
-# ------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 DATABASES["default"] = env.db("DATABASE_URL")  # noqa F405
 DATABASES["default"]["ATOMIC_REQUESTS"] = True  # noqa F405
 DATABASES["default"]["CONN_MAX_AGE"] = env.int("CONN_MAX_AGE", default=60)  # noqa F405
-
+DATABASES['default']["URL"] =env("DATABASE_URL").replace('postgres','postgresql')
 # CACHES
 # ------------------------------------------------------------------------------
 CACHES = {
@@ -60,11 +59,12 @@ DROPBOX_TIMEOUT = env('DJANGO_DROPBOX_TIMEOUT',default = 100)
 DROPBOX_WRITE_MODE = env('DJANGO_DROPBOX_WRITE_MODE',default='add')
 # STATIC
 # -------------------------
-#STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
-#COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
-#STATIC_URL = f"https://{aws_s3_domain}/static/"
+# STATICFILES_STORAGE = "flight.utils.storages.StaticRootS3Boto3Storage"
+# COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
+# STATIC_URL = "/static/"
+#django_heroku.settings(locals())
 # MEDIA
-# ------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 DEFAULT_FILE_STORAGE = "storages.backends.dropbox.DropBoxStorage"
 
 # TEMPLATES
